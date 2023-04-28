@@ -22,16 +22,14 @@
     }
   },
   "intents" : [ {
-    "path" : "/погода",
+    "path" : "/тест",
     "enabled" : true,
     "shared" : false,
-    "phrases" : [ {
-      "text" : "погода"
-    } ],
+    "phrases" : [ ],
     "classificationRules" : {
       "refs" : [ ]
     },
-    "patterns" : [ ],
+    "patterns" : [ "тест" ],
     "priority" : 0
   }, {
     "path" : "/пока",

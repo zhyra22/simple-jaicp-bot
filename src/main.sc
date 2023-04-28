@@ -14,15 +14,9 @@ theme: /
         intent!: /пока
         a: Пока пока
     
-    state:
-    intent!: /Погода
-    script:
-        if ($parseTree._Date) {
-            $temp.date = $parseTree._Date.value;
-        } else {
-            $temp.date = "сегодня";
-        }
-        a: Погода в {{$parseTree._City}} на {{$temp.date}}
+    state: тест
+        intent!: /тест
+        a: тест успешен
 
     state: NoMatch
         event!: noMatch
