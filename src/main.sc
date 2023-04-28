@@ -17,7 +17,7 @@ theme: /
     
     state: тест
         intent!: /тест
-        a: тест успеше
+        a: тест успешен
 
     state: NoMatch
         event!: noMatch
