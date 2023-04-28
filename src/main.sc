@@ -14,15 +14,21 @@ theme: /
     state: Hello
         intent!: /привет
         a: Привет привет
+        buttons:
+            "Меню" -> /Start
 
     state: Bye
         intent!: /пока
         a: Пока пока
-    
+        buttons:
+            "Меню" -> /Start
+
     state: тест
         intent!: /тест
         image: https://248305.selcdn.ru/zfl_prod/1000088513/272165021/9WhMObSOXLXnK3MF.jpg
         a: тест успешен
+        buttons:
+            "Меню" -> /Start
 
     state: NoMatch
         event!: noMatch
