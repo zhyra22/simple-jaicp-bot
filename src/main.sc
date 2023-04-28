@@ -7,9 +7,9 @@ theme: /
         q!: $regex</start>
         a: Привет! Я тестовый чат бот и пока я умею только здороваться и прощаться
         buttons:
-            "testbutton" -> /тест
-            "Привет!" -> /Hello
-            "Пока = (" -> /Bye
+            "testbutton 😂" -> /тест
+            "Привет👋" -> /Hello
+            "Пока 👍" -> /Bye
 
     state: Hello
         intent!: /привет
@@ -28,7 +28,7 @@ theme: /
         image: https://248305.selcdn.ru/zfl_prod/1000088513/272165021/9WhMObSOXLXnK3MF.jpg
         a: тест успешен
         buttons:
-            "Меню" -> /Start
+            "Меню⏫" -> /Start
 
     state: NoMatch
         event!: noMatch
