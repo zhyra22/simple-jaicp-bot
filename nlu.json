@@ -22,6 +22,18 @@
     }
   },
   "intents" : [ {
+    "path" : "/погода",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "погода"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -42,6 +54,8 @@
     "classificationRules" : {
       "refs" : [ ]
     },
+    "patterns" : [ ],
+    "slots" : [ ],
     "priority" : 0
   } ],
   "entities" : [ ],
