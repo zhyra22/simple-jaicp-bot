@@ -15,13 +15,13 @@ theme: /
         intent!: /привет
         a: Привет привет
         buttons:
-            "Меню" -> /Start
+            "Меню⏫" -> /Start
 
     state: Bye
         intent!: /пока
         a: Пока пока
         buttons:
-            "Меню" -> /Start
+            "Меню⏫" -> /Start
 
     state: тест
         intent!: /тест
