@@ -4,7 +4,7 @@ theme: /
 
     state: Start
         q!: $regex</start>
-        a: Начнём.
+        a: Привет! Я тестовый чат бот и пока я умею тольк здороваться и прощаться
 
     state: Hello
         intent!: /привет
