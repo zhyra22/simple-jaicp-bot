@@ -1,5 +1,6 @@
 require: slotfilling/slotFilling.sc
   module = sys.zb-common
+require: scripts/functions.js
 theme: /
 
     state: Start
@@ -16,7 +17,7 @@ theme: /
     
     state: тест
         intent!: /тест
-        a: тест успешен
+        a: тест успеше
 
     state: NoMatch
         event!: noMatch
